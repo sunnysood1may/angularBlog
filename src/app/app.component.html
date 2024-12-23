@@ -1,0 +1,181 @@
+<h1>Pipe in Angular #23</h1>
+<h2>{{name | uppercase}}</h2>
+<h2>{{name | titlecase}}</h2>
+<h2>{{name | lowercase}}</h2>
+<h2>{{today| date}}</h2>
+<h2>{{today| date:'fullDate'}}</h2>
+<h2>{{str | slice:2:6}}</h2>
+<h2>{{money| currency:'USD'}}</h2>
+<h2>{{money| currency:'CAD'}}</h2>
+
+
+<!--<h1>Send data child to parent component in angular #22</h1>
+<app-user (parentFunction)="parentFunction($event)"></app-user>
+<br><br><br>
+{{namee}}-->
+
+
+<!--<div *ngFor="let data of users">
+    <app-member [hero]="data"></app-member>
+</div>-->
+
+<!--<h1>Add Material in Angular 10</h1>
+<button mat-button color="primary">Angular</button>
+<button mat-raised-button color="warn">Warn</button>
+
+<button mat-button>Basic</button>
+<button mat-button color="primary">Primary</button>
+<button mat-button color="accent">Accent</button>
+<button mat-button color="warn">Warn</button>
+<button mat-button disabled>Disabled</button>
+   
+<mat-slider step="4" tickInterval="3"></mat-slider>-->
+
+<!--<h1>Add bootstrap in Angular 10</h1>
+<p>
+    <ngb-alert [dismissible]="false">
+      <strong>Warning!</strong> Better check yourself, you're not looking too good.
+    </ngb-alert>
+</p>
+
+<div class="btn-group btn-group-toggle">
+    <label class="btn-primary" ngbButtonLabel>
+      <input type="checkbox" ngbButton [(ngModel)]="model.left"> Left (pre-checked)
+    </label>
+    <label class="btn-primary" ngbButtonLabel>
+      <input type="checkbox" ngbButton [(ngModel)]="model.middle"> Middle
+    </label>
+    <label class="btn-primary" ngbButtonLabel>
+      <input type="checkbox" ngbButton [(ngModel)]="model.right"> Right
+    </label>
+  </div>
+  <hr>
+  <pre>{{model | json}}</pre>-->
+
+
+<!--<h1>Style Binding in Angular</h1>
+<h1 style="color: red;">Header 1</h1>
+<h1 [style.color]="'green'">Header 1</h1>
+<h4 [style.backgroundColor]="'yellow'">Header 1</h4>
+<h2 [style.color]="color">Dynamic Style</h2>
+<h2 [style.color]="err?'red':'green'">Conditional Style</h2>
+<button (click)="updateColor()">Update Color</button>-->
+
+<!--<app-header></app-header>
+<h1>Make Header Footer in Angular</h1>
+<app-footer></app-footer>-->
+
+<!--<h2>Simple Form in Angular</h2>
+<form #simpleForm="ngForm" (ngSubmit)="getUserValue(simpleForm.value)" >
+    <input type="text" ngModel name="username" placeholder="enter your username"><br><br>
+    <input type="text" ngModel name="age" placeholder="enter your age"><br><br>
+    <input type="text" ngModel name="email" placeholder="enter your email"><br><br>
+    <input type="password" ngModel name="password" placeholder="enter your password"><br><br>
+    <button>Get User Value</button>
+</form>-->
+
+<!--<h2>for Loop in Angular</h2>
+<table>
+    <tr *ngFor="let ite of data">
+        <td>{{ite.name}}</td>
+        <td>{{ite.age}}</td>
+        <td>{{ite.email}}</td>
+    </tr>
+</table>-->
+
+<!--<h1>Swith Case in Angular</h1>
+<div [ngSwitch]="color" >
+    <h4 *ngSwitchCase="'red'" style="color: red;">red color</h4>
+    <h4 *ngSwitchCase="'green'" style="color: green;">green color</h4>
+    <h4 *ngSwitchCase="'blue'" style="color: blue;">blue color</h4>
+</div>-->
+
+<!--<h1>Conditions in Angular</h1>
+<h1 *ngIf="show=='yes'; then IfBlock else elseBlock">
+    If Block
+</h1>
+<ng-template #IfBlock>
+    <h1>blocking</h1>
+</ng-template>
+<ng-template #elseBlock>
+    <h1>else block</h1>
+</ng-template>
+
+<ng-template [ngIf]="show=='red'">
+    <h1>red block</h1>
+</ng-template>
+<ng-template [ngIf]="show=='green'">
+    <h1>green blcok</h1>
+</ng-template>
+<ng-template [ngIf]="show=='blue'">
+    <h1>blue block</h1>
+</ng-template>-->
+
+<!--<h1>Property Binding in Angular</h1>
+<input type="text" [disabled]="disabledBox" [value]="name" />
+<br><br>
+<input type="text" disabled={{disabledBox}} value={{name}} />
+<br><br>
+<button (click)="enableBox()">Enable TextBox</button>-->
+
+<!--<input type="text" #first (keyup)="getVal(first.value)" />
+<br><br>
+<input type="text" #box />
+<button (click)="getVal(box.value)">get value</button>
+<h2>{{currentVal}}</h2>-->
+
+<!--
+<h1>What is component in Angular</h1>
+<app-user-list></app-user-list>
+<app-login></app-login>
+<app-signup></app-signup>
+<button (click)="getName('brace')">get my name</button>
+<br>
+<button (click)="myEvent('this is click event')">click event</button>
+<br><br>
+<input type="text" #box (keydown)="myEvent(box.value)" />
+<br><br>
+<input type="text" (blur)="myEvent('blue event')" />
+<div 
+(mouseleave)="myEvent('mouse in ')"
+style="background-color: red;">Red Event</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
